@@ -1,8 +1,5 @@
 import "@/styles/globals.css";
-import { Metadata } from "next";
-import { Link } from "@nextui-org/link";
-import clsx from "clsx";
-
+import NavBar from "@/components/layout/navbar";
 
 
 export default function RootLayout({
@@ -14,6 +11,7 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning>
 			<head />
 			<body>
+				<NavBar />
 				{children}
 			</body>
 		</html>
