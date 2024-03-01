@@ -8,3 +8,19 @@
 body{
     background-color: rgb(163, 156, 156);
 }
+
+.header1{
+    font-family: 'Playfair Display', serif;
+}
+.header2{
+    font-family: 'Oswald', sans-serif;
+}
+.header3{
+    font-family: 'Work Sans', sans-serif;
+}
+.text1{
+    font-family: "Poppins", sans-serif;
+}
+.text2{
+    font-family: 'Work Sans', sans-serif;
+}
