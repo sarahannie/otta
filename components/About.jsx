@@ -11,7 +11,7 @@ const About = () => {
     <p class={`text-[15px] font-semibold text-[#3dfbf4] mission_header mb-5 ${style.header1}`}>About Us</p>
     <div className="mx-auto mb-8 w-full  text-center md:mb-12 lg:mb-1 lg:flex sm:block">
       {/* Hero Title */}
-      <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-1/4 sm:w-full text-start`}>
+      <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-1/3 sm:w-full text-start`}>
       Unlock the power of data analysis with our comprehensive course
       </h1>
       <p className={`mx-auto mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-white sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1}`}>

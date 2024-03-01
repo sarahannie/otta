@@ -3,7 +3,7 @@ import style from "./hero.module.css"
 import { Link, Button} from "@nextui-org/react";
 const Feature = () => {
   return (
-    <header className='bg-[#3dfbf9] pb-10'>
+    <header className='bg-[#eef2ff] pb-10'>
     {/* Hero Container */}
     <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
       {/* Component */}
