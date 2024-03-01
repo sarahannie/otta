@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Course = () => {
    
   return (
-    <div>
+    <div className='bg-[#fafafa]'>
 
 <section>
  
