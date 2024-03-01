@@ -1,6 +1,6 @@
 
 import React from 'react'
-import style from './about.module.css'
+import style from "./hero.module.css"
 import { GoDotFill } from "react-icons/go";
 import Image from 'next/image';
 

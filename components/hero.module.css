@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald:200,400|Playfair+Display:400,400i');
+
+
 .header1{
     font-family: 'Playfair Display', serif;
 }
@@ -7,5 +9,11 @@
     font-family: 'Oswald', sans-serif;
 }
 .header3{
+    font-family: 'Work Sans', sans-serif;
+}
+.text1{
+    font-family: "Poppins", sans-serif;
+}
+.text2{
     font-family: 'Work Sans', sans-serif;
 }

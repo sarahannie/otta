@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './about.module.css'
+import style from "./hero.module.css"
 import { Link, Button} from "@nextui-org/react";
 const Feature = () => {
   return (
