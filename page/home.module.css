@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald:200,400|Playfair+Display:400,400i');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,900&family=Ubuntu:wght@300;400;500;700&display=swap');
+.header1{
+    font-family: 'Playfair Display', serif;
+}
+.header2{
+    font-family: 'Oswald', sans-serif;
+}
+.header3{
+    font-family: 'Work Sans', sans-serif;
+}
+.text1{
+    font-family: "Poppins", sans-serif;
+}
+.text2{
+    font-family: 'Work Sans', sans-serif;
+}
+
+

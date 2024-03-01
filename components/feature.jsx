@@ -13,10 +13,9 @@ const Feature = () => {
         <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-1/3 sm:w-full text-start`}>
         Unlock the power of data analysis 
         </h1>
-        <p className={`mx-auto mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-gray-400 sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1}`}>
+        <p className={`mx-auto mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-white sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1}`}>
         Our data course cover key topics statistical method, data manipulation, and data visualization. gain th skill you need to analysis and interpret your data.
         </p>
-        
       </div>
       {/* Hero Image */}
     </div>

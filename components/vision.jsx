@@ -12,7 +12,7 @@ const Vision = () => {
       <h1 className={`text-2xl font-semibold text-gray-800  lg:text-3xl lg:w-96 ${style.header2}`}>
         Building a Friction-free Africa attractive for reverse migration
       </h1>
-      <p className={`max-w-lg mt-6 text-gray-500 dark:text-gray-400 ${style.text1} `}>
+      <p className={`max-w-lg mt-6 text-white dark:text-gray-400 ${style.text1} `}>
         We Yeepsters make running a business a breeze by developing smart
         technology that simplifies tasks, streamlines operations, and boosts
         efficiency and profits. Yeep that&apos;s what we do! We&apos;ll take care of the

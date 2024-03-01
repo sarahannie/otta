@@ -9,6 +9,7 @@ import Price from '@/components/Price'
 import Cta from '@/components/cta'
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
+import style from './home.module.css'
 
 const Home = () => {
   return (
