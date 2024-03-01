@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Course = () => {
    
   return (
-    <div className='bg-[#fafafa]'>
+    <div className='bg-[#fafafa]' id='courses'>
 
 <section>
  

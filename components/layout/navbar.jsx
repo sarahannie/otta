@@ -17,17 +17,17 @@ export default function NavBar() {
     <Navbar onMenuOpenChange={setIsMenuOpen} style={{margin: "auto 0"}} >
       <NavbarContent className="hidden sm:flex gap-[20px] text-[#a4a4a4]" justify="start">
         <NavbarItem >
-          <Link className="text-[#a4a4a4] hover:text-[#6d6d6d]"  href="#">
+          <Link className="text-[#a4a4a4] hover:text-[#6d6d6d]"  href="#about-us">
             About
           </Link>
         </NavbarItem>
         <NavbarItem >
-          <Link href="#" className="text-[#a4a4a4] hover:text-[#6d6d6d] ">
+          <Link href="#courses" className="text-[#a4a4a4] hover:text-[#6d6d6d] ">
             Courses
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link  href="#" className="text-[#a4a4a4] hover:text-[#6d6d6d]">
+          <Link  href="#enroll" className="text-[#a4a4a4] hover:text-[#6d6d6d]">
             Register
           </Link>
         </NavbarItem>
@@ -45,7 +45,7 @@ export default function NavBar() {
 
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} className="bg-black text-white" href="#" variant="solid" radius="none">
+          <Button as={Link} className="bg-black text-white" href="#enroll" variant="solid" radius="none">
             Sign Up
           </Button>
         </NavbarItem>

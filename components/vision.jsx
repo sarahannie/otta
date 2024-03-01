@@ -3,7 +3,7 @@ import style from './about.module.css'
 
 const Vision = () => {
   return (
-    <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16" id='vision'>
   <div className="lg:-mx-6 lg:flex lg:items-center">
     <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
       <p className={`text-[15px] font-semibold text-[#3dfbf4] mission_header mb-5 ${style.header1}`}>
@@ -21,7 +21,7 @@ const Vision = () => {
       </p>
       <div className="mt-10 flex">
         <a
-          href="#"
+          href="#courses"
           className="inline-block pb-1 mt-2 text-base font-black text-[#3dfbf4] uppercase border-b border-transparent hover:border-[#2389cf]"
         >
           Find Out More -&gt;

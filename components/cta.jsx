@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <section className="bg-indigo-50 border-y border-indigo-100">
+    <section className="bg-indigo-50 border-y border-indigo-100" id='enroll'>
   <div className="max-w-7xl px-4 sm:px-6 md:px-8 mx-auto lg:flex lg:items-center lg:justify-between lg:px-8 py-12 sm:py-24">
     <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-gray-900">
       Ready to dive in?

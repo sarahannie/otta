@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-    <header>
+    <header id='about-us'>
   {/* Hero Container */}
   <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
     {/* Component */}

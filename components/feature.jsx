@@ -46,8 +46,8 @@ const Feature = () => {
         readable and well documented.
       </p>
       <div className='pt-8 flex gap-4 align-center '>
-      <Button as={Link} className="bg-white text-black border-1 border-black" href="#" variant="solid" radius="none">Enroll</Button>
-    <a href='' className='pt-2'>Learn more -&gt;</a>
+      <Button as={Link} className="bg-white text-black border-1 border-black" href="#enroll" variant="solid" radius="none">Enroll</Button>
+    <a href='#vision' className='pt-2'>Learn more -&gt;</a>
 </div>
     </div>
   </div>
