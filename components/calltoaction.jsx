@@ -3,7 +3,7 @@ import { Link, Button} from "@nextui-org/react";
 
 const Calltoaction = () => {
   return (
-    <header className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16" >
+    <header className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-[#eef2ff]" >
            <div className="grid md:grid-cols-3 max-w-screen-lg  ml-20 gap-20 mt-1 px-5">
   <div className="flex gap-4 items-center flex-col ">
     <span className="text-violet-600 bg-violet-500/10 p-3 rounded-full">
@@ -24,16 +24,13 @@ const Calltoaction = () => {
       </svg>
     </span>
     <div>
-      <h3 className="font-semibold text-xl text-center"> Easy Sign-up for Data Anlysis course</h3>
+      <h3 className="font-semibold text-xl text-center"> Easy Sign-up for Data course</h3>
       <p className="mt-1 text-gray-500 text-center">
         {" "}
         You don&apos;t need to be an expert to use our plugin. Our expressive API is
         readable and well documented.
       </p>
-      <div className='pt-8 flex gap-4 align-center justify-center '>
-      <Button as={Link} className="bg-white text-black border-1 border-black" href="#enroll" variant="solid" radius="none">Register</Button>
-    <a href='#vision' className='pt-2'>Learn more -&gt;</a>
-    </div>
+      
     </div>
   </div>
   <div className="flex gap-4 items-center flex-col ">
@@ -61,10 +58,7 @@ const Calltoaction = () => {
         You can make sure your website or app is highly performant with a
         built-in system to help you optimize.
       </p>
-      <div className='pt-8 flex gap-4 align-center justify-center'>
-      <Button as={Link} className="bg-white text-black border-1 border-black" href="#enroll" variant="solid" radius="none">Enroll</Button>
-    <a href='#vision' className='pt-2'>Learn more -&gt;</a>
-    </div>
+      
     </div>
   </div>
   <div className="flex gap-4 items-center flex-col ">
@@ -86,16 +80,13 @@ const Calltoaction = () => {
       </svg>
     </span>
     <div>
-      <h3 className="font-semibold text-xl text-center">Comprehensive Course Material </h3>
+      <h3 className="font-semibold text-xl text-center">Comprehensive Material </h3>
       <p className="mt-1 text-gray-500 text-center">
         {" "}
         Our plugins do not have any external dependencies so our plugin has the
         minimal footprint possible.
       </p>
-      <div className='pt-8 flex gap-4 align-center justify-center '>
-      <Button as={Link} className="bg-white text-black border-1 border-black" href="#enroll" variant="solid" radius="none">Register</Button>
-    <a href='#vision' className='pt-2'>Learn more -&gt;</a>
-    </div>
+      
     </div>
   </div>
 </div>
