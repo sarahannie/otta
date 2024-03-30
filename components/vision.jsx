@@ -6,7 +6,7 @@ const Vision = () => {
     <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16" id='vision'>
   <div className="lg:-mx-6 lg:flex lg:items-center">
     <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-      <p className={`text-[15px] font-semibold text-[#3dfbf4] mission_header mb-5 ${style.header1}`}>
+      <p className={`text-[15px] font-semibold text-[#30c7c2] mission_header mb-5 ${style.header1}`}>
         Vision
       </p>
       <h1 className={`text-2xl font-semibold text-gray-800  lg:text-3xl lg:w-96 ${style.header2} ${style.textheader2}`}>

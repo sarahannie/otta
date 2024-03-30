@@ -9,7 +9,7 @@ const About = () => {
   {/* Hero Container */}
   <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
     {/* Component */}
-    <p className={`text-[15px] font-semibold text-[#3dfbf4] mission_header mb-5 ${style.header1}`}>About Us</p>
+    <p className={`text-[15px] font-semibold text-[#30c7c2] mission_header mb-5 ${style.header1}`}>About Us</p>
     <div className="mx-auto mb-8 w-full  text-center md:mb-12 lg:mb-1 lg:flex sm:block">
       {/* Hero Title */}
       <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-1/3 sm:w-full text-start ${styles.textheader2}`}>
