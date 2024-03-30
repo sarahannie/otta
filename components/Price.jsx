@@ -13,13 +13,13 @@ const Price = () => {
         Cancel anytime. Custom enterprise pricing is available upon request.{" "}
         <a
           href="/contact"
-          className="text-blue-500 underline underline-offset-4"
+          className="text-[#30c7c2] underline underline-offset-4"
         >
           Just email us here!
         </a>
       </p>
       <div className="mt-10 flex items-center gap-x-4">
-        <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
+        <h4 className="flex-none text-sm font-semibold leading-6 text-[#30c7c2]">
           What’s included
         </h4>
         <div className="h-px flex-auto bg-gray-100" />
@@ -48,7 +48,7 @@ const Price = () => {
             </defs>
             <g clipPath="url(#id1)">
               <path
-                fill="green"
+                fill="#30c7c2"
                 d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
                 fillOpacity={1}
                 fillRule="nonzero"
@@ -82,7 +82,7 @@ const Price = () => {
             </defs>
             <g clipPath="url(#id1)">
               <path
-                fill="green"
+                fill="#30c7c2"
                 d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
                 fillOpacity={1}
                 fillRule="nonzero"
@@ -116,7 +116,7 @@ const Price = () => {
             </defs>
             <g clipPath="url(#id1)">
               <path
-                fill="green"
+                fill="#30c7c2"
                 d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
                 fillOpacity={1}
                 fillRule="nonzero"
@@ -150,7 +150,7 @@ const Price = () => {
             </defs>
             <g clipPath="url(#id1)">
               <path
-                fill="green"
+                fill="#30c7c2"
                 d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
                 fillOpacity={1}
                 fillRule="nonzero"
@@ -184,7 +184,7 @@ const Price = () => {
             </defs>
             <g clipPath="url(#id1)">
               <path
-                fill="green"
+                fill="#30c7c2"
                 d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
                 fillOpacity={1}
                 fillRule="nonzero"
@@ -200,7 +200,7 @@ const Price = () => {
 
     <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
     <div
-  className="border-blue-600 rounded-2xl border  divide-y divide-gray-200 max-w-sm mx-auto mt-20"
+  className="border-[#3dfbf4] rounded-2xl border  divide-y divide-gray-200 max-w-sm mx-auto mt-20"
   style={{
     boxShadow:
       "rgba(45, 50, 130, 0.15) 0px 12px 16px -4px, rgba(45, 50, 130, 0.15) 0px 4px 6px -2px"
@@ -220,9 +220,9 @@ const Price = () => {
     <a
       href="#"
       target="_blank"
-      className="flex justify-center w-full py-3 mt-4 text-sm font-medium text-white bg-[#3dfbf4] border border-[#3dfbf4] rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+      className="flex justify-center w-full py-3 mt-4 text-sm font-medium text-white bg-[black] border border-[#3dfbf4] rounded active:text-indigo-500 hover:bg-teal-500 hover:text-white focus:outline-none focus:ring"
     >
-      Get started now
+      Get Started Now
     </a>
   </div>
   <div className="px-6 pt-6 pb-8">

@@ -21,10 +21,10 @@ const Hero = () => {
           Take your skill to the next level with our comprehensive data analysis course.
         </p>
         <div className="mt-8 flex flex-wrap gap-4 text-center ">
-          <Button as={Link} className="bg-black text-white" href="#enroll" variant="solid" radius="none">
+          <Button as={Link} className="bg-teal-500 text-white w-1/3" href="#enroll" variant="solid" radius="none">
             Sign Up
           </Button>
-          <Button as={Link} className="bg-white text-black" href="#vision" variant="solid" radius="none">
+          <Button as={Link} className="bg-white text-black w-1/3" href="#vision" variant="solid" radius="none">
             Learn More
           </Button>
          

@@ -55,9 +55,9 @@ const Contact = () => {
         </div>
         <button
           type="button"
-          className="mb-6 inline-block w-full rounded bg-teal-400 px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500"
+          className="mb-6 inline-block w-full rounded bg-black px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500"
         >
-          Send
+          Send Us a Message
         </button>
       </form>
       <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">

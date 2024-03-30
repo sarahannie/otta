@@ -22,7 +22,7 @@ const Vision = () => {
       <div className="mt-10 flex">
         <a
           href="#courses"
-          className="inline-block pb-1 mt-2 text-base font-black text-[#3dfbf4] uppercase border-b border-transparent hover:border-[#2389cf]"
+          className="inline-block pb-1 mt-2 text-base font-black text-black uppercase border-b border-transparent hover:border-teal-500"
         >
           Find Out More -&gt;
         </a>
