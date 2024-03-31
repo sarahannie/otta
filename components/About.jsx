@@ -25,7 +25,7 @@ const About = () => {
   <Image
   width={600}
   height={10}
-    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     alt=""
     className="inline-block max-h-[512px] w-[96%] rounded-2xl object-cover px-5 md:px-10 lg:ml-6 sm:ml-0 "
   />

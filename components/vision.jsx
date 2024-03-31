@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './about.module.css'
+import Image from 'next/image'
 
 const Vision = () => {
   return (
@@ -24,9 +25,9 @@ const Vision = () => {
         </a>
       </div>
     </div>
-    <img
+    <Image width={200} height={200}
       className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[26rem]"
-      src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      src="/image/bannerm.png"
       alt=""
     />
   </div>
