@@ -10,14 +10,10 @@ const Vision = () => {
         Vision
       </p>
       <h1 className={`text-2xl font-semibold text-gray-800  lg:text-3xl lg:w-96 ${style.header2} ${style.textheader2}`}>
-        Building a Friction-free Africa attractive for reverse migration
+      Creating an environment where individuals can acquire skills in the field of data analysis.
       </h1>
       <p className={`max-w-lg mt-6 text-white dark:text-gray-400 ${style.text1} ${style.textheader3} `}>
-        We Yeepsters make running a business a breeze by developing smart
-        technology that simplifies tasks, streamlines operations, and boosts
-        efficiency and profits. Yeep that&apos;s what we do! We&apos;ll take care of the
-        technical side of things, so you can focus on the fun part of running
-        your business. Let&apos;s work together to make your business soar!
+      At Otta, we&apos;re dedicated to making the journey of learning data analysis a breeze. Our innovative technology simplifies complex tasks, streamlines operations, and amplifies efficiency and insights. Leave the technical side to us, so you can focus on mastering the intricacies of data analysis. Let&apos;s team up to elevate your data analysis skills to new heights!
       </p>
       <div className="mt-10 flex">
         <a

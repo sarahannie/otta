@@ -12,11 +12,11 @@ const About = () => {
     <p className={`text-[15px] font-semibold text-[#30c7c2] mission_header mb-5 ${style.header1}`}>About Us</p>
     <div className="mx-auto mb-8 w-full  text-center md:mb-12 lg:mb-1 lg:flex sm:block">
       {/* Hero Title */}
-      <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-1/3 sm:w-full text-start ${styles.textheader2}`}>
-      Unlock the power of data analysis with our comprehensive course
+      <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-[35%] sm:w-full text-start ${styles.textheader2}`}>
+      Explore the incredible opportunities that come with data analysis.
       </h1>
       <p className={`mx-auto mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-white sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1} ${styles.textheader3}`}>
-      At Otta, we are dedicated to providing you with the knowledge and skills to excel in the field of data analysis. Our courses cover everything from data collection and cleaning to advanced statistical analysis techniques. Join us today and take the first step towards a successful career in data analysis.
+      At Otta, we&apos;re committed to equipping you with the expertise and abilities to thrive in the realm of data analysis. Our courses span from the basics of gathering and refining data to mastering sophisticated statistical methods. Enroll with us now and embark on the journey to a rewarding career in data analysis.
       </p>
       
     </div>

@@ -11,10 +11,10 @@ const Hero = () => {
     <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
       <div className="max-w-xl text-start ltr:sm:text-left rtl:sm:text-right">
         <h1 className={`text-3xl font-extrabold text-white sm:text-5xl ${style.header1}`}>
-          Unlock the Power of 
+          Amazing Possibilities 
           <strong className="block font-extrabold text-[#3dfbf4]">
             {" "}
-            Data Analysis.{" "}
+            With Data Analysis.{" "}
           </strong>
         </h1>
         <p className={`mt-4 max-w-lg sm:text-xl/relaxed text-white ${style.header3}`}>
