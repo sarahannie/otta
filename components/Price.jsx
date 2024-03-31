@@ -6,7 +6,7 @@ const Price = () => {
   <div className="mx-auto mt-8 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-12 lg:mx-0 lg:flex lg:max-w-none bg-white">
     <div className="p-8 sm:p-10 lg:flex-auto">
       <h1 className="text-2xl font-bold tracking-tight text-gray-900">
-        Monthly Pricing
+        Payment for the Course
       </h1>
       <p className="mt-6 text-base leading-7 text-gray-600">
         Choose our monthly subscription plan that would suit your extra needs.
@@ -375,7 +375,7 @@ const Price = () => {
 >
   <div className="p-6">
     <div className="flex justify-between">
-      <h2 className="text-lg font-semibold text-gray-600">Professional</h2>
+      <h2 className="text-lg font-semibold text-gray-600">Corporate</h2>
     </div>
     <p className="mt-0.5 text-sm text-gray-500">For established companies</p>
     <p className="mt-8">

@@ -1,20 +1,27 @@
+"use client"
 import React from 'react'
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm('{https://formspree.io/f/mwkgrroo}');
+  if (state.succeeded) {
+      return <p>Thanks for joining!</p>;
+  }
   return (
     <div className="container my-12 mx-auto px-2 md:px-4">
   <section className="mb-32">
+   
     <div className="flex justify-center">
       <div className="text-center md:max-w-xl lg:max-w-3xl">
         <h2 className="mb-12 px-6 text-3xl font-bold">Contact us</h2>
       </div>
     </div>
     <div className="flex flex-wrap">
-      <form className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
+      <form className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6"  onSubmit={handleSubmit}>
         <div className="mb-3 w-full">
           <label
             className="block font-medium mb-[2px] text-teal-700"
-            htmlfor="exampleInput90"
+            htmlFor="exampleInput90"
           >
             Name
           </label>
@@ -23,12 +30,13 @@ const Contact = () => {
             className="px-2 py-2 border w-full outline-none rounded-md"
             id="exampleInput90"
             placeholder="Name"
+            name="name"
           />
         </div>
         <div className="mb-3 w-full">
           <label
             className="block font-medium mb-[2px] text-teal-700"
-            htmlfor="exampleInput90"
+            htmlFor="exampleInput90"
           >
             Email
           </label>
@@ -37,25 +45,30 @@ const Contact = () => {
             className="px-2 py-2 border w-full outline-none rounded-md"
             id="exampleInput90"
             placeholder="Enter your email address"
+            name="email"
           />
         </div>
         <div className="mb-3 w-full">
           <label
             className="block font-medium mb-[2px] text-teal-700"
-            htmlfor="exampleInput90"
+            htmlFor="exampleInput90"
           >
             Message
           </label>
           <textarea
             className="px-2 py-2 border rounded-[5px] w-full outline-none"
-            name=""
             id=""
             defaultValue={""}
+            
+            name="meassage"
+            
           />
         </div>
+        <ValidationError field="email" prefix="Email" errors={state.errors} />
         <button
           type="button"
           className="mb-6 inline-block w-full rounded bg-black px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-teal-500"
+          disabled={state.submitting}
         >
           Send Us a Message
         </button>
@@ -173,6 +186,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+  
   </section>
 </div>
 

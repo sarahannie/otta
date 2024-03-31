@@ -25,7 +25,7 @@ const Vision = () => {
         </a>
       </div>
     </div>
-    <Image width={200} height={200}
+    <Image width={400} height={200}
       className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[26rem]"
       src="/image/bannerm.png"
       alt=""

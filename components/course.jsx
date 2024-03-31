@@ -77,6 +77,34 @@ const Course = () => {
   <div className="w-full px-4 md:w-1/2 lg:w-1/3">
     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
       <div className="mx-auto mb-7 inline-block">
+        <Image  width={100} height={61} src='/image/excel_logo.png' alt='excel'/>
+      </div>
+      <div>
+        <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
+        Introduction to Advance Excel
+        </h3>
+        <p className="text-base font-medium text-body-color">
+        Otta complimentary service is tailored for data analysis needs, providing a generous free plan suitable for experimentation, personal projects, and professional data analysis tasks.
+        </p>
+        <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
+          <Image width={50} height={5} alt="" src="/image/sarah.png" className="w-7 inline-block" />
+          <div className="ml-4 flex flex-col">
+            <p className="font-semibold text-sm">Sarah Annie</p>
+            <div className='flex gap-2'>
+            <p className="text-sm text-[#636262]">{new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'short', year:'numeric',})}</p>
+            <div className="text-sm text-[#636262] flex gap-1">
+                <GoDotFill className='mt-1' /> <div>72 hours 20min read </div>
+            </div>
+            </div>
+           
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+    <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
+      <div className="mx-auto mb-7 inline-block">
       <Image  width={80} height={61} src='/image/powerbi_logo.png' alt='excel'/>
       </div>
       <div>
@@ -105,23 +133,23 @@ const Course = () => {
   <div className="w-full px-4 md:w-1/2 lg:w-1/3">
     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
       <div className="mx-auto mb-7 inline-block">
-        <Image  width={100} height={61} src='/image/excel_logo.png' alt='excel'/>
+      <Image  width={100} height={61} src='/image/data-visualization.png' alt='excel'/>
       </div>
       <div>
-        <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-        Introduction to Advance Excel
+      <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
+          Introduction to Tableau
         </h3>
         <p className="text-base font-medium text-body-color">
-        Otta complimentary service is tailored for data analysis needs, providing a generous free plan suitable for experimentation, personal projects, and professional data analysis tasks.
+        Otta free plan is tailored for those delving into data-visualization, offering a perfect platform for experimenting with data and conducting personal or small-scale data projects.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
-          <Image width={50} height={5} alt="" src="/image/sarah.png" className="w-7 inline-block" />
+          <Image width={50} height={10} alt="" src="/image/sarah.png" className="w-7 inline-block" />
           <div className="ml-4 flex flex-col">
             <p className="font-semibold text-sm">Sarah Annie</p>
             <div className='flex gap-2'>
             <p className="text-sm text-[#636262]">{new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'short', year:'numeric',})}</p>
             <div className="text-sm text-[#636262] flex gap-1">
-                <GoDotFill className='mt-1' /> <div>72 hours 20min read </div>
+                <GoDotFill className='mt-1' /> <div>40 hours 30min read </div>
             </div>
             </div>
            
@@ -186,34 +214,7 @@ const Course = () => {
       </div>
     </div>
   </div>
-  <div className="w-full px-4 md:w-1/2 lg:w-1/3">
-    <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9">
-      <div className="mx-auto mb-7 inline-block">
-      <Image  width={100} height={61} src='/image/data-visualization.png' alt='excel'/>
-      </div>
-      <div>
-      <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-          Introduction to Data-Visualization
-        </h3>
-        <p className="text-base font-medium text-body-color">
-        Otta free plan is tailored for those delving into data-visualization, offering a perfect platform for experimenting with data and conducting personal or small-scale data projects.
-        </p>
-        <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
-          <Image width={50} height={10} alt="" src="/image/sarah.png" className="w-7 inline-block" />
-          <div className="ml-4 flex flex-col">
-            <p className="font-semibold text-sm">Sarah Annie</p>
-            <div className='flex gap-2'>
-            <p className="text-sm text-[#636262]">{new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'short', year:'numeric',})}</p>
-            <div className="text-sm text-[#636262] flex gap-1">
-                <GoDotFill className='mt-1' /> <div>40 hours 30min read </div>
-            </div>
-            </div>
-           
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
+  
 </div>
     </div>
   )
