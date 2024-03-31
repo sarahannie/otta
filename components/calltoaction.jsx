@@ -4,7 +4,7 @@ import { Link, Button} from "@nextui-org/react";
 const Calltoaction = () => {
   return (
     <header className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-[#eef2ff]" >
-           <div className="grid md:grid-cols-3 max-w-screen-lg  ml-20 gap-20 mt-1 px-5">
+           <div className="grid md:grid-cols-3 max-w-screen-lg  lg:ml-20 ml-5 gap-20 mt-1 px-5">
   <div className="flex gap-4 items-center flex-col ">
     <span className="text-violet-600 bg-[#30c7c2] p-3 rounded-full">
       <svg
