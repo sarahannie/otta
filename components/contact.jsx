@@ -84,8 +84,8 @@ const Contact = () => {
               </div>
               <div className="ml-6 grow">
                 <p className="mb-2 font-bold">Technical support</p>
-                <p className="text-neutral-500 ">support@example.com</p>
-                <p className="text-neutral-500 ">+1 234-567-89</p>
+                <p className="text-neutral-500 "> ottaanalytics@gmail.com</p>
+                <p className="text-neutral-500 ">+234 7062157126</p>
               </div>
             </div>
           </div>
@@ -111,8 +111,8 @@ const Contact = () => {
               </div>
               <div className="ml-6 grow">
                 <p className="mb-2 font-bold ">Sales questions</p>
-                <p className="text-neutral-500 ">sales@example.com</p>
-                <p className="text-neutral-500 ">+1 234-567-89</p>
+                <p className="text-neutral-500 "> ottaanalytics@gmail.com</p>
+                <p className="text-neutral-500 ">+234 8143258522</p>
               </div>
             </div>
           </div>
@@ -138,8 +138,8 @@ const Contact = () => {
               </div>
               <div className="ml-6 grow">
                 <p className="mb-2 font-bold ">Press</p>
-                <p className="text-neutral-500 ">press@example.com</p>
-                <p className="text-neutral-500 ">+1 234-567-89</p>
+                <p className="text-neutral-500 "> ottaanalytics@gmail.com</p>
+                <p className="text-neutral-500 ">+234 7062157126</p>
               </div>
             </div>
           </div>
@@ -165,8 +165,8 @@ const Contact = () => {
               </div>
               <div className="ml-6 grow">
                 <p className="mb-2 font-bold">Bug report</p>
-                <p className="text-neutral-500 ">bugs@example.com</p>
-                <p className="text-neutral-500">+1 234-567-89</p>
+                <p className="text-neutral-500 ">sarahndianekwu@gmail.com</p>
+                <p className="text-neutral-500">+234 8034739605</p>
               </div>
             </div>
           </div>

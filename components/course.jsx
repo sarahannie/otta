@@ -56,8 +56,7 @@ const Course = () => {
         Introduction to Basic of Excel
         </h3>
         <p className="text-base font-medium text-body-color">
-          FormBold is free to use, we are offering a decent free plan for
-          experiments, personal projects and projects.
+        Otta free plan is tailored for those delving into data analysis, offering a perfect platform for experimenting with Excel and conducting personal or small-scale data projects.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
           <Image width={50} height={10} alt='image' src="/image/ola.png" className="w-10 inline-block" />
@@ -85,8 +84,7 @@ const Course = () => {
          Introduction to Power BI
         </h3>
         <p className="text-base font-medium text-body-color">
-          Link multiple email address under your parent account, use any of them
-          for your forms to recieve submissions.
+        With Power BI, you can link multiple email addresses under your parent account, enabling you to use any of them for your forms to receive submissions effortlessly.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
           <Image width={50} height={10} alt="" src="/image/grace.png" className="w-10 inline-block" />
@@ -114,11 +112,10 @@ const Course = () => {
         Introduction to Advance Excel
         </h3>
         <p className="text-base font-medium text-body-color">
-          FormBold is free to use, we are offering a decent free plan for
-          experiments, personal projects and projects.
+        Otta complimentary service is tailored for data analysis needs, providing a generous free plan suitable for experimentation, personal projects, and professional data analysis tasks.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
-          <Image width={50} height={10} alt="" src="/image/sarah.png" className="w-10 inline-block" />
+          <Image width={50} height={5} alt="" src="/image/sarah.png" className="w-7 inline-block" />
           <div className="ml-4 flex flex-col">
             <p className="font-semibold text-sm">Sarah Annie</p>
             <div className='flex gap-2'>
@@ -143,8 +140,7 @@ const Course = () => {
           Introduction to R programming
         </h3>
         <p className="text-base font-medium text-body-color">
-          Connect apps and integrations with your form, get notified with
-          submitter data when you recieve new submissions.
+        Effortlessly integrate your applications and external systems with your data analysis processes in R programming. Stay informed with comprehensive notifications containing submitter data.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
           <Image width={50} height={10} alt="" src="/image/ben.png" className="w-10 inline-block" />
@@ -172,8 +168,7 @@ const Course = () => {
           Introduction to Python 
         </h3>
         <p className="text-base font-medium text-body-color">
-          We use server-side mechanism to make sure submissions are spam free
-          and all messages are end-to-end encrypted.
+        In our data analysis context, we implement server-side mechanisms to ensure submissions remain free from spam and all messages are encrypted end-to-end and prioritizing the security .
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
           <Image width={50} height={10} alt="" src="/image/ola.png" className="w-10 inline-block" />
@@ -201,11 +196,10 @@ const Course = () => {
           Introduction to Data-Visualization
         </h3>
         <p className="text-base font-medium text-body-color">
-          You can allow end users to attach or upload attachments, you will
-          recieve a CDN link with submission data.
+        Otta free plan is tailored for those delving into data-visualization, offering a perfect platform for experimenting with data and conducting personal or small-scale data projects.
         </p>
         <a className="flex max-w-sm rounded-md pt-8 text-[#222222] " href="#w-tabs-1-data-w-pane-2">
-          <Image width={50} height={10} alt="" src="/image/sarah.png" className="w-10 inline-block" />
+          <Image width={50} height={10} alt="" src="/image/sarah.png" className="w-7 inline-block" />
           <div className="ml-4 flex flex-col">
             <p className="font-semibold text-sm">Sarah Annie</p>
             <div className='flex gap-2'>

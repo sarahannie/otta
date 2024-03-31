@@ -56,8 +56,7 @@ const Price = () => {
               />
             </g>
           </svg>{" "}
-          <span className="font-bold mx-1">1000</span>
-          <span>Resumes / Check</span>
+          <span>Access to Data Cleaning </span>
         </li>
         <li className="flex items-center">
           <svg
@@ -90,8 +89,7 @@ const Price = () => {
               />
             </g>
           </svg>{" "}
-          <span className="font-bold mx-1">30</span>
-          <span>Job Posts</span>
+          <span>Preprocessing Tools</span>
         </li>
         <li className="flex items-center">
           <svg
@@ -124,42 +122,7 @@ const Price = () => {
               />
             </g>
           </svg>{" "}
-          <span className="font-bold mx-1">24/7</span>
-          <span>Priority Support</span>
-        </li>
-        <li className="flex items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={20}
-            zoomAndPan="magnify"
-            viewBox="0 0 30 30.000001"
-            height={20}
-            preserveAspectRatio="xMidYMid meet"
-            version={1.0}
-            id="IconChangeColor"
-          >
-            <defs>
-              <clipPath id="id1">
-                <path
-                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
-                  clipRule="nonzero"
-                  id="mainIconPathAttribute"
-                  fill="green"
-                />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path
-                fill="#30c7c2"
-                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
-                fillOpacity={1}
-                fillRule="nonzero"
-                id="mainIconPathAttribute"
-              />
-            </g>
-          </svg>{" "}
-          <span className="font-bold mx-1" />
-          <span>Custom Hosting</span>
+          <span>Integration with Popular Data Analysis Libraries</span>
         </li>
         <li className="flex items-center">
           <svg
@@ -193,7 +156,211 @@ const Price = () => {
             </g>
           </svg>{" "}
           <span className="font-bold mx-1" />
-          <span>White Label Access</span>
+          <span>Training and Tutorials on Data Analysis Methods</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Collaboration Features for Team-based Analysis</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Security Measures to Protect Sensitive Data</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Security Measures to Protect Sensitive Data</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Compliance with Data Privacy Regulations</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Performance Monitoring and Optimization Tools</span>
+        </li>
+        <li className="flex items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={20}
+            zoomAndPan="magnify"
+            viewBox="0 0 30 30.000001"
+            height={20}
+            preserveAspectRatio="xMidYMid meet"
+            version={1.0}
+            id="IconChangeColor"
+          >
+            <defs>
+              <clipPath id="id1">
+                <path
+                  d="M 2.847656 4.792969 L 26.796875 4.792969 L 26.796875 24.390625 L 2.847656 24.390625 Z M 2.847656 4.792969 "
+                  clipRule="nonzero"
+                  id="mainIconPathAttribute"
+                  fill="green"
+                />
+              </clipPath>
+            </defs>
+            <g clipPath="url(#id1)">
+              <path
+                fill="#30c7c2"
+                d="M 11.078125 24.3125 L 2.847656 15.890625 L 6.128906 12.53125 L 11.078125 17.597656 L 23.519531 4.875 L 26.796875 8.230469 Z M 11.078125 24.3125 "
+                fillOpacity={1}
+                fillRule="nonzero"
+                id="mainIconPathAttribute"
+              />
+            </g>
+          </svg>{" "}
+          <span className="font-bold mx-1" />
+          <span>Insights and Recommendations Based on Analysis Results</span>
         </li>
       </ul>
     </div>
@@ -244,7 +411,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">5 workspaces</span>
+        <span className="text-sm text-gray-500">Friendly Tutor</span>
       </li>
       <li className="flex space-x-3">
         <div className="flex justify-center items-center rounded-full bg-green-100 h-5 w-5">
@@ -262,7 +429,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">Unlimited testimonials</span>
+        <span className="text-sm text-gray-500">Unlimited Resources</span>
       </li>
       <li className="flex space-x-3">
         <div className="flex justify-center items-center rounded-full bg-green-100 h-5 w-5">
@@ -280,7 +447,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">10 collection forms</span>
+        <span className="text-sm text-gray-500">Free Interaction Sessions</span>
       </li>
       <li className="flex space-x-3">
         <div className="flex justify-center items-center rounded-full bg-green-100 h-5 w-5">
@@ -298,7 +465,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">20 embeddable widgets</span>
+        <span className="text-sm text-gray-500">Self-Paced Learning</span>
       </li>
       <li className="flex space-x-3">
         <div className="flex justify-center items-center rounded-full bg-green-100 h-5 w-5">
@@ -317,7 +484,7 @@ const Price = () => {
           </svg>
         </div>
         <span className="text-sm text-gray-500">
-          White labeled widgets and forms
+        Custom Branding
         </span>
       </li>
       <li className="flex space-x-3">
@@ -337,7 +504,7 @@ const Price = () => {
           </svg>
         </div>
         <span className="text-sm text-gray-500">
-          Custom branding (logo, colors, etc...)
+          Building of portfoilo
         </span>
       </li>
       <li className="flex space-x-3">
@@ -356,7 +523,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">2 members per workspace</span>
+        <span className="text-sm text-gray-500">2 members per workshop</span>
       </li>
     </ul>
   </div>
