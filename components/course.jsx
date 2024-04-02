@@ -53,7 +53,7 @@ const Course = () => {
       </div>
       <div>
         <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-        Enroll for Basic of Excel Classes
+        Enroll for Basic Excel Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         Otta free plan is tailored for those delving into data analysis, offering a perfect platform for experimenting with Excel and conducting personal or small-scale data projects.
