@@ -53,7 +53,7 @@ const Course = () => {
       </div>
       <div>
         <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-        Introduction to Basic of Excel
+        Enroll to Basic of Excel Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         Otta free plan is tailored for those delving into data analysis, offering a perfect platform for experimenting with Excel and conducting personal or small-scale data projects.
@@ -81,7 +81,7 @@ const Course = () => {
       </div>
       <div>
         <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-        Introduction to Advance Excel
+        Enroll to Advance Excel Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         Otta complimentary service is tailored for data analysis needs, providing a generous free plan suitable for experimentation, personal projects, and professional data analysis tasks.
@@ -109,7 +109,7 @@ const Course = () => {
       </div>
       <div>
         <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-         Introduction to Power BI
+         Enroll to Power BI Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         With Power BI, you can link multiple email addresses under your parent account, enabling you to use any of them for your forms to receive submissions effortlessly.
@@ -137,7 +137,7 @@ const Course = () => {
       </div>
       <div>
       <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-          Introduction to Tableau
+          Enroll to Tableau Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         Otta free plan is tailored for those delving into data-visualization, offering a perfect platform for experimenting with data and conducting personal or small-scale data projects.
@@ -165,7 +165,7 @@ const Course = () => {
       </div>
       <div>
         <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-          Introduction to R programming
+          Enroll to R programming Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         Effortlessly integrate your applications and external systems with your data analysis processes in R programming. Stay informed with comprehensive notifications containing submitter data.
@@ -193,7 +193,7 @@ const Course = () => {
       </div>
       <div>
       <h3 className={`mb-4 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl ${style.header2}`}>
-          Introduction to Python 
+            Enroll to Python Classes
         </h3>
         <p className="text-base font-medium text-body-color">
         In our data analysis context, we implement server-side mechanisms to ensure submissions remain free from spam and all messages are encrypted end-to-end and prioritizing the security .

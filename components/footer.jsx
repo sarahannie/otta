@@ -1,9 +1,13 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
   return (
     <div className="bg-gray-100">
   <div className="max-w-screen-xl mx-auto px-4 sm:px-6  text-gray-800 flex flex-wrap justify-center flex justify-between">
+    <div className="p-5">
+    <Image src='/image/otta_logo.png' alt="logo" width={70} height={50} />
+    </div>
     <div className="p-5">
       <div className="text-xs uppercase text-gray-500 font-medium">Home</div>
       <a className="my-3 block" href="/#">
