@@ -15,7 +15,7 @@ const About = () => {
       <h1 className={`mb-2 text-2xl font-bold md:text-3xl ${style.header2} lg:w-[35%] sm:w-full text-start ${styles.textheader2}`}>
       Explore the incredible opportunities that come with data analysis.
       </h1>
-      <p className={`mx-auto mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-white sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1} ${styles.textheader3}`}>
+      <p className={`lg:mx-auto mx-0 mb-2 lg:max-w-[55%] sm:max-w-[80%] pt-3 text-sm text-white sm:text-[17px] md:mb-6 lg:mb-8 text-start ${style.text1} ${styles.textheader3}`}>
       At Otta, we&apos;re committed to equipping you with the expertise and abilities to thrive in the realm of data analysis. Our courses span from the basics of gathering and refining data to mastering sophisticated statistical methods. Enroll with us now and embark on the journey to a rewarding career in data analysis.
       </p>
       
