@@ -15,7 +15,25 @@ export default function NavBar() {
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} style={{margin: "auto 0"}} >
-      <NavbarContent className="hidden sm:flex gap-[20px] text-[#a4a4a4]" justify="start">
+
+  <NavbarContent justify="start">
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden" 
+        />
+        <NavbarBrand  >
+          <a href="/">
+            <Image src='/image/otta_logo.png' alt="logo" width={70} height={50} />
+          </a>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-[50px] text-[#a4a4a4]" justify="end">
+        <NavbarItem >
+          <Link className="text-[#a4a4a4] hover:text-[#6d6d6d]"  href="/">
+            Home
+          </Link>
+        </NavbarItem>
         <NavbarItem >
           <Link className="text-[#a4a4a4] hover:text-[#6d6d6d]"  href="#about-us">
             About
@@ -31,9 +49,14 @@ export default function NavBar() {
             Register
           </Link>
         </NavbarItem>
+        <NavbarItem>
+          <Button as={Link} className="bg-black text-white hover:bg-teal-500" href="/register" variant="solid" radius="none">
+            Sign Up
+          </Button>
+        </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent justify="center">
+      {/* <NavbarContent justify="center">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden" 
@@ -43,15 +66,15 @@ export default function NavBar() {
             <Image src='/image/otta_logo.png' alt="logo" width={70} height={50} />
           </a>
         </NavbarBrand>
-      </NavbarContent>
+      </NavbarContent> */}
 
-      <NavbarContent justify="end">
+      {/* <NavbarContent >
         <NavbarItem>
           <Button as={Link} className="bg-black text-white hover:bg-teal-500" href="/register" variant="solid" radius="none">
             Sign Up
           </Button>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
