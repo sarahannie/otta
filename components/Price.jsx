@@ -385,7 +385,7 @@ const Price = () => {
       <span className="text-base font-medium text-gray-500">/mo</span>
     </p>
     <a
-      href="#"
+      href="/register"
       target="_blank"
       className="flex justify-center w-full py-3 mt-4 text-sm font-medium text-white bg-[black] border border-[#3dfbf4] rounded active:text-indigo-500 hover:bg-teal-500 hover:text-white focus:outline-none focus:ring"
     >

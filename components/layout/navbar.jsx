@@ -27,7 +27,7 @@ export default function NavBar() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link  href="#enroll" className="text-[#a4a4a4] hover:text-[#6d6d6d]">
+          <Link  href="/register" className="text-[#a4a4a4] hover:text-[#6d6d6d]">
             Register
           </Link>
         </NavbarItem>
@@ -45,7 +45,7 @@ export default function NavBar() {
 
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} className="bg-black text-white hover:bg-teal-500" href="#enroll" variant="solid" radius="none">
+          <Button as={Link} className="bg-black text-white hover:bg-teal-500" href="/register" variant="solid" radius="none">
             Sign Up
           </Button>
         </NavbarItem>

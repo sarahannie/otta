@@ -36,7 +36,7 @@ const componentProps = {
 
             className="item-image"
 
-            src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+            src="/image/datas.jpg"
 
             alt="product"
 
@@ -44,9 +44,7 @@ const componentProps = {
 
           <div className="item-details">
 
-            <p>Dancing Shoes</p>
-
-            <p>{amount}</p>
+            
 
           </div>
 

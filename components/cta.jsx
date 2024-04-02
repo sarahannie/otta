@@ -10,12 +10,12 @@ const Cta = () => {
       Start with our Free Plan today.
     </h2>
     <div className="mt-6 flex space-x-8 items-center">
-      <a href="#">
+      <a href="/register">
         <button className="inline-flex items-center justify-center px-4 py-2.5 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none ring-2 ring-offset-2 ring-transparent ring-offset-transparent disabled:bg-gray-400 dark:disabled:bg-slate-700 appearance-none text-white bg-black hover:bg-teal-500 focus:ring-indigo-500 focus:ring-offset-white !px-6 !shadow-lg">
           <p>Enroll</p>
         </button>
     </a>
-    <a href="#">
+    <a href="#vision">
         <button className="inline-flex items-center justify-center px-4 py-2.5 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none ring-2 ring-offset-2 ring-transparent ring-offset-transparent disabled:bg-gray-400 dark:disabled:bg-slate-700 appearance-none  bg-white hover:bg-teal-500 focus:ring-indigo-500 focus:ring-offset-white !px-6 !shadow-lg hover:text-white">
           <p>Learn More</p>
         </button>
