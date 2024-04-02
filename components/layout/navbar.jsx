@@ -83,7 +83,7 @@ export default function NavBar() {
                 index === 2 ? ' foreground' : index === menuItems.length - 1 ? "danger" : "foreground"
               }
               className="w-full border-b-1 pb-4 border-[#a4a4a4] hover:bg-[#6d6d6d] hover:text-white"
-              href="#"
+              href="/register"
               size="lg"
             >
               {item}
