@@ -39,7 +39,9 @@ export default function NavBar() {
           className="sm:hidden" 
         />
         <NavbarBrand  >
-          <Image src='/image/otta_logo.png' alt="logo" width={70} height={50} />
+          <a href="/">
+            <Image src='/image/otta_logo.png' alt="logo" width={70} height={50} />
+          </a>
         </NavbarBrand>
       </NavbarContent>
 
