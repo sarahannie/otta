@@ -22,7 +22,7 @@ const Home = () => {
     <Price />
     <Cta />
     <Contact />
-    <Footer />
+    
     </>
   )
 }
