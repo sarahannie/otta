@@ -258,7 +258,7 @@ const Price = () => {
             </g>
           </svg>{" "}
           <span className="font-bold mx-1" />
-          <span>Security Measures to Protect Sensitive Data</span>
+          <span>Add all training are project based.</span>
         </li>
         <li className="flex items-center">
           <svg
@@ -411,7 +411,7 @@ const Price = () => {
             />
           </svg>
         </div>
-        <span className="text-sm text-gray-500">Friendly Tutor</span>
+        <span className="text-sm text-gray-500">instructor led Virtual classes</span>
       </li>
       <li className="flex space-x-3">
         <div className="flex justify-center items-center rounded-full bg-green-100 h-5 w-5">
